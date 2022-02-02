@@ -1,0 +1,28 @@
+﻿@page
+@model TecGurusAdvancedUAMCORE.Pages.Group.CreateModel
+@{
+}
+
+<h1>Create Group</h1>
+<hr />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="GroupModel.Name" class="control-label"></label>
+                <input asp-for="GroupModel.Name" class="form-control" />
+                <span asp-validation-for="GroupModel.Name" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-page="Index">Cancelar</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+

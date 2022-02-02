@@ -1,0 +1,40 @@
+﻿@page
+@model TecGurusAdvancedUAMCORE.Pages.Group.IndexModel
+@{
+}
+
+<h2>Grupos</h2>
+<hr />
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Grupo
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in Model.Groups)
+        {
+        <tr>
+            <td>
+                @group.GroupId
+            </td>
+            <td>
+                @group.Name
+            </td>
+            <td>
+                <a asp-page="./Group/Delete" asp-route-id="@group.GroupId">Borrar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

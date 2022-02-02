@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>aspnet-TecGurusAdvancedUAMCORE-336965C5-9389-4492-888C-A0AA3885B4A3</UserSecretsId>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Pages\Student\**" />
+	  <Content Remove="Pages\Student\**" />
+	  <EmbeddedResource Remove="Pages\Student\**" />
+	  <None Remove="Pages\Student\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Remove="Pages\Group\Delete.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.13" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.12" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="EntityExample\" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\TecGurusUAMCommon\TecGurusUAMCommon.csproj" />
+		<ProjectReference Include="..\TecGurusUAMFactory\TecGurusUAMFactory.csproj" />
+		<ProjectReference Include="..\TecGurusUAMInfrastructure\TecGurusUAMInfrastructure.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Pages\Group\Delete.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Pages\Group\Delete.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="Pages\Group\Delete.cshtml" />
+	</ItemGroup>
+</Project>

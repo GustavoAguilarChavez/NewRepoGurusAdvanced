@@ -1,0 +1,30 @@
+﻿@page "{Id:int?}"
+@model TecGurusAdvancedUAMCORE.Pages.Group.DeleteModel
+@{
+}
+
+<h1>Eliminar Grupo</h1>
+<hr />
+<form method="post">
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label asp-for="GroupModel.GroupId" class="control-label"></label>
+        </dt>
+        <dd class="col-sm-10">
+            <label asp-for="GroupModel.GroupId" class="form-control"></label>
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="GroupModel.Name" class="control-label"></label>
+        </dt>
+        <dd class="col-sm-10">
+            <label asp-for="GroupModel.Name" class="form-control"></label>
+        </dd>
+    </dl>
+
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-page="./Index" class="btn btn-light">Cancelar</a>
+
+</form>
+<div>
+
+</div>

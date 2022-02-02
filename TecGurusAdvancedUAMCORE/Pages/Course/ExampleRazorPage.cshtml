@@ -1,0 +1,91 @@
+﻿@*Indica que nuestro archivo cshtml es un razor page y
+    no una vista de mvc*@
+@page
+
+@model TecGurusAdvancedUAMCORE.Pages.Course.ExampleRazorPageModel
+@{
+}
+
+<h3>@Model.Persona</h3>
+
+<hr />
+<br />
+
+
+<div class="col-md-12">
+    <form method="post">
+        <h4>Envió de un parametro</h4>
+        <input type="text" name="parametroString" class="form-control" placeholder="ingresa parametro" />
+        <input type="submit" value="Enviar" class="btn btn-info" />
+    </form>
+</div>
+<hr />
+<br />
+
+<div class="row">
+    <div class="form-group">
+        <form method="post">
+            <h4>Formulario Persona</h4>
+            <div class="col-md-12">
+                <input asp-for="@Model.Persona.Nombre" type="text" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="col-md-12">
+                <input asp-for="@Model.Persona.Edad" type="text" class="form-control" placeholder="Edad" />
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-info" asp-page-handler="Persona" />
+        </form>
+    </div>
+</div>
+<hr />
+<br />
+
+
+
+<div class="row">
+    <div class="form-group">
+        <form method="post">
+            <h4>Ingresar Parametro para Envió</h4>
+            <div class="col-md-12">
+                <input asp-for="@Model.Numero" type="text"
+                       class="form-control" placeholder="Nombre" />
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-info"
+                   asp-page-handler="RedirectParameter" />
+        </form>
+    </div>
+</div>
+<hr />
+<br />
+
+
+
+<div class="row">
+    <div class="form-group">
+        <form method="post">
+            <h4>Ingresar Parametros para Envió</h4>
+            <div class="col-md-12">
+                <input asp-for="@Model.Numero" type="text"
+                       class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="col-md-12">
+                <input asp-for="@Model.Letras" type="text"
+                       class="form-control" placeholder="Nombre" />
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-info"
+                   asp-page-handler="RedirectTwoParameters" />
+        </form>
+    </div>
+</div>
+
+<hr />
+<br />
+<br />
+
+<div class="row">
+    <div class="form-group">
+        <form method="post">
+            <h4>Envió de TempData</h4>            
+            <input type="submit" value="Enviar" class="btn btn-info" asp-page-handler="RedirectTareaTempDataParameter" />
+        </form>
+    </div>
+</div>

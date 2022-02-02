@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecGurusAdvancedUAMCORE", "TecGurusAdvancedUAMCORE\TecGurusAdvancedUAMCORE.csproj", "{2E18B601-B493-43FC-B661-456105DE5305}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleInterfaceAndInjection", "ConsoleInterfaceAndInjection\ConsoleInterfaceAndInjection.csproj", "{7EC5C40B-9DD9-4445-A2BE-6929AC67750F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecGurusUAMModels", "TecGurusUAMModels\TecGurusUAMModels.csproj", "{82F573A3-C97C-4557-AE07-BC374D50F8AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecGurusUAMCommon", "TecGurusUAMCommon\TecGurusUAMCommon.csproj", "{3F33B250-E499-4642-9A96-15AC9107468E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecGurusUAMInfrastructure", "TecGurusUAMInfrastructure\TecGurusUAMInfrastructure.csproj", "{310BE935-F596-492B-981B-91E23DB1E753}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecGurusUAMFactory", "TecGurusUAMFactory\TecGurusUAMFactory.csproj", "{7B94D28D-211C-4BFA-B899-84475EFB552A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecGurusAdvancedUAMWebAPI", "TecGurusAdvancedUAMWebAPI\TecGurusAdvancedUAMWebAPI.csproj", "{A1C146DD-D7D6-45BF-8F15-2614FFF540B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E18B601-B493-43FC-B661-456105DE5305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E18B601-B493-43FC-B661-456105DE5305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E18B601-B493-43FC-B661-456105DE5305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E18B601-B493-43FC-B661-456105DE5305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC5C40B-9DD9-4445-A2BE-6929AC67750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC5C40B-9DD9-4445-A2BE-6929AC67750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC5C40B-9DD9-4445-A2BE-6929AC67750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC5C40B-9DD9-4445-A2BE-6929AC67750F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F573A3-C97C-4557-AE07-BC374D50F8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F573A3-C97C-4557-AE07-BC374D50F8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F573A3-C97C-4557-AE07-BC374D50F8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F573A3-C97C-4557-AE07-BC374D50F8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F33B250-E499-4642-9A96-15AC9107468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F33B250-E499-4642-9A96-15AC9107468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F33B250-E499-4642-9A96-15AC9107468E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F33B250-E499-4642-9A96-15AC9107468E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310BE935-F596-492B-981B-91E23DB1E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310BE935-F596-492B-981B-91E23DB1E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310BE935-F596-492B-981B-91E23DB1E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310BE935-F596-492B-981B-91E23DB1E753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B94D28D-211C-4BFA-B899-84475EFB552A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B94D28D-211C-4BFA-B899-84475EFB552A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B94D28D-211C-4BFA-B899-84475EFB552A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B94D28D-211C-4BFA-B899-84475EFB552A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C146DD-D7D6-45BF-8F15-2614FFF540B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C146DD-D7D6-45BF-8F15-2614FFF540B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C146DD-D7D6-45BF-8F15-2614FFF540B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C146DD-D7D6-45BF-8F15-2614FFF540B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {587C369C-6647-4E82-B769-0935E27F55B2}
+	EndGlobalSection
+EndGlobal
